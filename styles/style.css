@@ -17,6 +17,18 @@ ul {
     font-size: 25px;
 }
 
+.table {
+
+}
+.duck {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    width: 400px;
+    height: 400px;
+}
+svg {
+}
 a {
     text-decoration: none;
     color: white;
