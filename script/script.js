@@ -47,6 +47,15 @@ $('.contact').click(function() {
     $('body').css('background-size', 'cover');
     $('body').css('background-repeat', 'no-repeat');
     $('body').css('background-position', 'center');
+    $('.comebackbutton').css('visibility', 'visible');
+})
+
+$('.comebackbutton').mouseover(function() {
+    $(this).css('cursor', 'pointer');
+})
+
+$('.comebackbutton').click(function() {
+    window.location.href = "index.html";
 })
 
 $(function() {
