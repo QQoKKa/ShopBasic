@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    background-image: url(/images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -30%;
+    background-position-y: 60%;
+    overflow: hidden;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    opacity: 0.6;
+}
