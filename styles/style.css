@@ -6,6 +6,7 @@ body {
     font-size: 12px;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     /* overflow: hidden; */
 }
 ul {
@@ -76,6 +77,11 @@ a {
     text-decoration: none;
     color: white;
 }
+.productimage {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
 .backgroundimage {
     position: absolute;
     top: 0;
@@ -86,4 +92,53 @@ a {
 
 .headercontainer {
     margin-top: 1%;
+}
+
+.productcontainer {
+    width: 60%;
+    display:grid;
+    grid-template-areas:
+    "a b"
+    "c d";
+    margin-top: 300px;
+    margin-left: 5%;
+}
+
+.product {
+    width: 300px;
+    height: 380px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+.product1 {
+    grid-area: a;
+}
+
+.product2 {
+    grid-area: b;
+}
+
+.product3 {
+    grid-area: c;
+}
+.product4 {
+    grid-area: d;
+}
+
+.productbutton {
+    background-color: rgb(254, 253, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
