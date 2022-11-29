@@ -170,3 +170,7 @@ a {
     background-color: white;
     visibility: hidden;
 }
+
+.contactset {
+    visibility: visible;
+}

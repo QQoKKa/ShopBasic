@@ -4,18 +4,17 @@ $('document').ready(function() {
 })
 
 $('.moreproducts').click(function() {
-    //scroll to the bottom of page
     $('html, body').animate({ scrollTop: $(document).height() }, 'slow');
 });
 
 $('#backup').click(function() {
-    //scroll to the top of page
     $('html, body').animate({ scrollTop: 0 }, 'slow');
 })
 
-// $('.moreproducts').mouseover(function() {
-//     $('.bi').animate({}, 'fast');
-// })
+$('.sitechange').mouseover(function() {
+    $(this).css('cursor', 'pointer');
+});
+
 $('.aboutuspage').click(function() {
     const changesite = document.createElement('div');
     document.body.appendChild(changesite);
@@ -40,28 +39,22 @@ $('.aboutuspage').click(function() {
 })
 $('.trans').animate({ left: '-1000vw' }, 'slow');
 
-
+$('.contact').click(function() {
+    $('.contactset').css('visibility', 'hidden');
+    $('.moreproducts').css('visibility', 'hidden');
+    //set image to .backgroundimage
+    $('body').css('background-image', 'url(/images/bg6.png)');
+    $('body').css('background-size', 'cover');
+    $('body').css('background-repeat', 'no-repeat');
+    $('body').css('background-position', 'center');
+})
 
 $(function() {
-  
-  
     function loop(){
      $('.bi')
        .animate({marginTop:10},900)
        .animate({marginTop:20},900, loop);
     }
-    
     loop();
-  
-  
   }); 
 
-  function wait(){
-    for(let i = 0; i < 2; i++){
-        i.delay(1000);
-        i++;
-        if(i == 1){
-            return true;
-        }
-    }
-  }
