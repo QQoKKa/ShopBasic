@@ -7,6 +7,12 @@ body {
     background-position-y: 60%; */
     overflow: hidden;
 }
+.trans {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
 
 .underscore {
     text-align: center;
