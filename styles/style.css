@@ -118,7 +118,6 @@ a {
     align-items: center;
     width: 300px;
     height: 350px;
-    border: 1px solid rgb(251, 251, 251);
     border-radius: 10px;
     transition: 0.3s;
     border-top: none;
@@ -177,6 +176,8 @@ a {
 
 .comebackbutton {
     position: absolute;
+    top: 2%;
+    left: 2%;
     font-size: 30px;
     visibility: hidden;
 }
@@ -189,4 +190,18 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.trademark {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    visibility: hidden;
+}
+
+.basketicon:hover {
+    border: 2px solid white;
+    border-radius: 50%;
 }

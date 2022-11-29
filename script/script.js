@@ -48,9 +48,14 @@ $('.contact').click(function() {
     $('body').css('background-repeat', 'no-repeat');
     $('body').css('background-position', 'center');
     $('.comebackbutton').css('visibility', 'visible');
+    $('.trademark').css('visibility', 'visible');
 })
 
 $('.comebackbutton').mouseover(function() {
+    $(this).css('cursor', 'pointer');
+})
+
+$('.basketicon').mouseover(function() {
     $(this).css('cursor', 'pointer');
 })
 
