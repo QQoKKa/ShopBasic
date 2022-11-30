@@ -5,7 +5,7 @@ $('document').ready(function() {
 
 $('.moreproducts').click(function() {
     $('html, body').animate({ scrollTop: $(document).height() }, 'slow');
-});
+}); 
 
 $('#backup').click(function() {
     $('html, body').animate({ scrollTop: 0 }, 'slow');

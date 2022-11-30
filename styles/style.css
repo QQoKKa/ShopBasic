@@ -76,8 +76,7 @@ ul {
 
 .footertext {
     position: absolute;
-    bottom: -105%;
-    left: 50%;
+    top: 200vh;
 }
 a {
     text-decoration: none;
@@ -89,6 +88,7 @@ a {
     top: 0;
     right: 0;
     transform: rotate(180deg);
+    height: 200vh;
     z-index: -1;
 }
 
@@ -204,4 +204,8 @@ a {
 .basketicon:hover {
     border: 2px solid white;
     border-radius: 50%;
+}
+
+.productcontent {
+    height: 150px;
 }
